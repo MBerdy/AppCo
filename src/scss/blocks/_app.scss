@@ -1,0 +1,13 @@
+.app {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: $second-color;
+    &_footer {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    &_stats {
+        margin-top: 0px
+    }
+}

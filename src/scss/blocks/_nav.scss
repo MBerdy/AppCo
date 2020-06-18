@@ -1,0 +1,23 @@
+.nav {
+  display: flex; 
+  justify-content: start; 
+  align-items: center;
+  padding: 0;
+  &__item {
+      list-style: none;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      margin-top: 16px;
+      padding: 0 8px;
+      color: #CCCCCC;
+      &:hover {
+        text-decoration: none;
+        color: $main-color;
+      }
+    }
+    &__arrow {
+        margin-top: 16px;
+    }
+}

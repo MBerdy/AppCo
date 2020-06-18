@@ -1,0 +1,37 @@
+    .descr {
+        width: 586px;
+        margin-top: 48px;
+        &__title {
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 59px;
+            color: $second-color;
+            &_center {
+                margin: 0 auto;
+                width: 580px;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 39px;
+                text-align: center;
+                color: #1A1A1A;
+            }
+            span {
+                font-weight: 700;
+            }
+        }
+        &__text {
+            margin-top: 24px;
+            font-weight: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 142%;
+            color: $second-color;
+            &_center {
+                text-align: center;
+                width: 780px;
+                color: #7E7E7E;
+                margin: 0 auto;
+                margin-top: 24px;
+            }
+        }
+    }

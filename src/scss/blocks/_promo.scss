@@ -1,0 +1,12 @@
+.promo {
+    min-height: 655px;
+    padding: 24px 0 29px 0;
+    background: url(../../img/bg_1.jpg) center (center/cover) no-repeat;
+    &__img {
+        position: absolute;
+        left: 64.58%;
+        right: 15.97%;
+        top: 5%;
+        bottom: 58.03%;
+    }
+}

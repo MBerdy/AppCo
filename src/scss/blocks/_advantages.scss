@@ -1,0 +1,16 @@
+.advantages {
+    padding: 16px 0 128px 0;
+    &__header {
+        margin: 0 auto;
+        width: 580px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        text-align: center;
+        color: #1A1A1A;
+        span {
+            font-weight: 700;
+        }
+    }
+}

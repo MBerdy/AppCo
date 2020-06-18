@@ -1,0 +1,37 @@
+.footer {
+    padding: 26px 0 36px 0;
+    background: url(../../img/footer.jpg) center (center/cover) no-repeat;
+    min-height: 184px;
+    &__form {
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        width: 579px;
+        height: 64px;
+        background: $second-color;
+        border: 1px solid #F1F1F1;
+        box-sizing: border-box;
+        border-radius: 10px;
+        input {
+            width: 390px;
+            height: 60px;
+            border: none;
+            border-radius: 10px;
+            color: #B9B9B9;
+            padding: 0 20px;
+        }
+    }
+    &__bottom {
+        margin-top: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text {
+        margin-top: 8px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 142%;
+        text-align: center;
+        color: $second-color;
+    }
+}

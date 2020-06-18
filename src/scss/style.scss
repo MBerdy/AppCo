@@ -1,0 +1,18 @@
+@import 'base/variables';
+@import "~bootstrap/scss/bootstrap";
+* {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+@import 'blocks/promo';
+@import 'blocks/app';
+@import 'blocks/descr';
+@import 'blocks/button';
+@import 'blocks/advantages';
+@import 'blocks/block';
+@import 'blocks/footer';
+@import 'blocks/line';
+@import 'blocks/nav';
+@import 'blocks/table';
+@import 'blocks/title'
