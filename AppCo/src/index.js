@@ -3,14 +3,13 @@ import ReactDOM from 'react-dom';
 import './scss/style.scss';
 import './scss/fonts.scss';
 import Main from './main.js';
-import Stats from './stats.js'
+import Stats from './stats.js';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 import 'react-bootstrap-table2-paginator/dist/react-bootstrap-table2-paginator.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-
 function App() {
   return(
     <Router>

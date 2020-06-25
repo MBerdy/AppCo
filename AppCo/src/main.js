@@ -5,9 +5,9 @@ import cleanDesign from './icons/clean.png';
 import secureData from './icons/secure.png';
 import retinaReady from './icons/retina.png';
 import { Container, Row, Col } from 'react-bootstrap';
+// import "./server.js"; 
 
 function Main() {
-  
     return (  
       <div>
       <div className ="promo">
